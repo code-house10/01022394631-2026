@@ -460,6 +460,48 @@
         </div>
     </section>
     <!-- End New Video Hero Section -->
+    <!-- Cairo Express Services Showcase: added directly below the hero -->
+    <style>
+        .hero-services-section{background:linear-gradient(180deg,#f8f9fa 0%,#fff 100%);padding:clamp(42px,6vw,76px) 0}
+        .hero-services-grid{display:grid;grid-template-columns:1fr;gap:24px}
+        .hero-service-card{background:#fff;border:1px solid #e8edf4;border-radius:18px;overflow:hidden;box-shadow:0 12px 32px rgba(10,15,44,.07);transition:transform .25s ease,box-shadow .25s ease}
+        .hero-service-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(0,97,242,.12)}
+        .hero-service-image-wrap{width:100%;background:#f1f4f8;overflow:hidden;line-height:0}
+        .hero-service-image{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;margin:0 auto}
+        .hero-service-content{padding:22px 22px 25px;text-align:right}
+        .hero-service-content h3{color:#0A0F2C;font-size:clamp(1.15rem,2vw,1.35rem);font-weight:800;margin-bottom:10px}
+        .hero-service-content p{color:#6C757D;line-height:1.9;margin:0}
+        .hero-services-kicker{display:inline-block;color:#0061F2;background:#eaf2ff;border-radius:999px;padding:6px 14px;font-size:.9rem;font-weight:700;margin-bottom:12px}
+        @media(min-width:768px){.hero-services-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}}
+        @media(min-width:1100px){.hero-services-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+        @media(max-width:767px){.hero-service-card{border-radius:14px}.hero-service-image-wrap{padding:0}.hero-service-image{width:100%;height:auto;object-fit:contain}.hero-service-content{padding:18px 17px 21px}}
+    </style>
+    <section id="hero-services" class="hero-services-section" aria-labelledby="hero-services-title">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10 md:mb-12">
+                <span class="hero-services-kicker">خدمات كايرو إكسبريس</span>
+                <h2 id="hero-services-title" class="text-3xl md:text-4xl font-extrabold text-secondary mb-4">خدمات نقل عفش متكاملة.. من أول خطوة لحد وصول عفشك بأمان</h2>
+                <p class="text-gray max-w-3xl mx-auto leading-8">بنوفر لك حلول نقل أثاث منظمة ومريحة، بداية من تجهيز المنقولات والتعامل معها بعناية، مرورًا بفريق العمل المتخصص، وحتى استخدام ونش رفع الأثاث عند الحاجة.</p>
+            </div>
+            <div class="hero-services-grid">
+                <article class="hero-service-card">
+                    <div class="hero-service-image-wrap"><img class="hero-service-image" src="https://ik.imagekit.io/mkek1asn5/images/cairo-saqqa/01_%D8%AE%D8%AF%D9%85%D8%A9_%D9%86%D9%82%D9%84_%D8%B9%D9%81%D8%B4_%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9.webp" alt="خدمة نقل عفش متكاملة من كايرو إكسبريس تشمل تجهيز الأثاث ونقله بعناية" loading="lazy" decoding="async"></div>
+                    <div class="hero-service-content"><h3>خدمة نقل عفش متكاملة</h3><p>من تجهيز الأثاث وترتيب خطوات النقل إلى تحميل المنقولات وتوصيلها، بنهتم بكل التفاصيل علشان تنتقل لبيتك الجديد براحة وتنظيم، مع الحرص على سلامة كل قطعة.</p></div>
+                </article>
+                <article class="hero-service-card">
+                    <div class="hero-service-image-wrap"><img class="hero-service-image" src="https://ik.imagekit.io/mkek1asn5/images/cairo-saqqa/04_%D9%81%D8%B1%D9%8A%D9%82_%D8%B9%D9%85%D9%84_%D9%85%D8%AD%D8%AA%D8%B1%D9%81.webp" alt="فريق عمل كايرو إكسبريس المتخصص في خدمات نقل وفك وتركيب الأثاث" loading="lazy" decoding="async"></div>
+                    <div class="hero-service-content"><h3>فريق عمل محترف ومدرّب</h3><p>فريقنا بيتعامل مع قطع الأثاث بعناية وتنظيم، وبيساعد في تنفيذ مراحل النقل بكفاءة، من المناولة والتحميل إلى ترتيب المنقولات في المكان الجديد حسب احتياجك.</p></div>
+                </article>
+                <article class="hero-service-card">
+                    <div class="hero-service-image-wrap"><img class="hero-service-image" src="https://ik.imagekit.io/mkek1asn5/images/cairo-saqqa/03_%D9%88%D9%86%D8%B4_%D8%B1%D9%81%D8%B9_%D8%A7%D9%84%D8%A3%D8%AB%D8%A7%D8%AB.webp" alt="ونش رفع الأثاث لتسهيل نقل العفش من وإلى الأدوار المرتفعة" loading="lazy" decoding="async"></div>
+                    <div class="hero-service-content"><h3>ونش رفع الأثاث</h3><p>لما تكون السلالم أو المداخل ضيقة أو الأدوار مرتفعة، نوفر ونش رفع الأثاث عند الحاجة لتسهيل رفع وتنزيل القطع الكبيرة وتقليل المجهود أثناء عملية النقل.</p></div>
+                </article>
+            </div>
+            <div class="text-center mt-9"><a href="#contact" class="btn-primary">اطلب خدمة نقل العفش الآن</a></div>
+        </div>
+    </section>
+    <!-- End Cairo Express Services Showcase -->
+
     
     <section id="about" class="py-16 bg-white">
         <div class="container mx-auto px-4">
